@@ -177,7 +177,6 @@ justify-content: center;
 .iconos {
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   margin: 1rem;}
   .izquierda{display: flex;}
   .derecha{display: flex;}
@@ -194,17 +193,3 @@ justify-content: center;
     width: 30%;
    padding: 1rem;
   }
-=======
-  align-items: center;
-  margin: 3rem;
-  width: 40%;
-}
-.iconos h2 {
-  color: #3f4b57;
-}
-.contenedorVideos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
->>>>>>> 37963ad382699bfca125852fa43a749e367a620c
