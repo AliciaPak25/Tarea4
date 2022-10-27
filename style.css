@@ -92,7 +92,7 @@ main {
 }
 .main {
   display: flex;
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 60px;
   flex-direction: column;
@@ -158,4 +158,19 @@ footer h3 {
 .iconos{
   display: flex;
   flex-direction: column;
-  margin: 3rem;}
+  margin: 1rem;}
+  .izquierda{display: flex;}
+  .derecha{display: flex;}
+  /* Contacto */
+  .centrarContacto{
+    text-align: center;
+    padding: 2rem;
+  }
+  .caja{
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(8, 151, 233);
+    font-size: large;
+    width: 30%;
+   padding: 1rem;
+  }
