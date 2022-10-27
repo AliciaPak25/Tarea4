@@ -108,6 +108,11 @@ main p {
   line-height: 150%;
   font-weight: 500;
 }
+.text__main {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
 span {
   font-weight: bold;
   color: rgb(13, 13, 114);
@@ -141,12 +146,13 @@ span {
   display: flex;
   justify-content: space-evenly;
 }
-footer {
+/*footer {
 
-}
+}*/
+
 footer h3 {
   height: 40px;
-  border: 2px solid grey;
+  border: 1px solid rgb(182, 182, 182);
 
   width: 100%;
   align-items: flex-end;
