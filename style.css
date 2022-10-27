@@ -177,6 +177,24 @@ justify-content: center;
 .iconos {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
+  margin: 1rem;}
+  .izquierda{display: flex;}
+  .derecha{display: flex;}
+  /* Contacto */
+  .centrarContacto{
+    text-align: center;
+    padding: 2rem;
+  }
+  .caja{
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(8, 151, 233);
+    font-size: large;
+    width: 30%;
+   padding: 1rem;
+  }
+=======
   align-items: center;
   margin: 3rem;
   width: 40%;
@@ -189,3 +207,4 @@ justify-content: center;
   justify-content: center;
   align-items: center;
 }
+>>>>>>> 37963ad382699bfca125852fa43a749e367a620c
