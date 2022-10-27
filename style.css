@@ -1,6 +1,6 @@
 /*===============CSS RESET=====================*/
 /* Box sizing rules */
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -80,7 +80,7 @@ a {
   font-size: 15px;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
@@ -95,6 +95,7 @@ main {
   width: 100%;
   margin: auto;
   margin-top: 60px;
+  margin-bottom: 70px;
   flex-direction: column;
 }
 .main h1 {
@@ -108,31 +109,37 @@ main p {
   line-height: 150%;
   font-weight: 500;
 }
+.text__main {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
 span {
   font-weight: bold;
   color: rgb(13, 13, 114);
 }
 .contenedor {
-  background-image: url(./assets/fondo.jpg);
-  background-size: cover;
+  /*este lo elimine por que ya esta repetido en el main*/
+  /* background-image: url(./assets/fondo.jpg);
+  background-size: cover;*/
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 70vh;
   margin: auto;
 }
-.items{
+.items {
   display: flex;
   justify-content: center;
   justify-content: space-around;
   margin: 5rem;
 }
-.icono{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 3rem;
+.icono {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
 }
 .contenedor p {
   font-size: 15px;
@@ -141,23 +148,36 @@ span {
   display: flex;
   justify-content: space-evenly;
 }
-footer {
 
+h3{
+  display:flex;
 }
 footer h3 {
-  height: 40px;
-  border: 2px solid grey;
-
-  width: 100%;
-  align-items: flex-end;
-  text-align: center;
+height: 40px;
+border: 1px solid rgb(182, 182, 182);
+width: 100%;
+align-items: center;
+font-weight: lighter;
+justify-content: center;
+}
+.footer__1{
+  background-color: rgb(247,247,247);
+  font-weight: lighter;
+  font-size: 16px;
+}
+.footer__2{
+  color:rgb(148, 138, 141);
+  font-size: 14px;
+  align-items: flex-start;
 }
 /* tutoriales */
-.centrar{text-align: center;
+.centrar {
+  text-align: center;
 }
-.iconos{
+.iconos {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   margin: 1rem;}
   .izquierda{display: flex;}
   .derecha{display: flex;}
@@ -174,3 +194,17 @@ footer h3 {
     width: 30%;
    padding: 1rem;
   }
+=======
+  align-items: center;
+  margin: 3rem;
+  width: 40%;
+}
+.iconos h2 {
+  color: #3f4b57;
+}
+.contenedorVideos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+>>>>>>> 37963ad382699bfca125852fa43a749e367a620c
