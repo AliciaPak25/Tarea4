@@ -209,7 +209,6 @@ footer h3 {
 .iconos {
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   margin: 1rem;}
   .izquierda{display: flex;}
   .derecha{display: flex;}
@@ -231,13 +230,7 @@ form {
   display: flex;
   justify-content: center;
 }
-.caja {
-  display: flex;
-  justify-content: center;
-}
-=======
-  margin: 1rem;
-}
+
 .izquierda {
   display: flex;
 }
@@ -250,6 +243,8 @@ form {
   padding: 2rem;
 }
 .caja {
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   text-align: center;
   background-color: rgb(8, 151, 233);
@@ -298,4 +293,3 @@ table {
   line-height: 26px;
   margin-top: 5px;
 }
->>>>>>> 7d7532ddaf952eeca06fad3a9b87c46069212090
