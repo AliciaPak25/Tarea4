@@ -10,18 +10,83 @@
 <body>
   <header>
     <div class="logo">
-        <img src="./assets/logo.JPG" alt="Estudio contable integral logo" class="logo">
-        <h3 class="textHead">Contacto</h3>
+      <img src="./assets/logo.JPG" alt="Estudio contable integral logo" class="logo">
+      <h3 class="textHead">Contacto</h3>
     </div>
     <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="nosotros.html">NOSOTROS</a></li>
-            <li><a href="servicios.html">SERVICIOS</a></li>
-            <li><a href="#">CONTACTO</a></li>
-            <li><a href="tutoriales.html">TUTORIALES</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="nosotros.html">NOSOTROS</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+        <li><a href="tutoriales.html">TUTORIALES</a></li>
+      </ul>
     </nav>
+  </header>
+  <main class="main">
+
+    <h1 class="centrarContacto">Estudio CMG</h1>
+    <div class="redes">
+
+      <div>
+        <h2>Telefono</h2>
+        <img src="./assets/telefono.png" alt="telefono">
+      </div>
+      <div>
+        <h2>Email</h2>
+        <img src="./assets/email.png" alt="email">
+      </div>
+      <div>
+        <h2>Facebook</h2>
+        <img src="./assets/facebook.png" alt="facebook">
+      </div>
+      <div>
+        <h2>Instagram</h2>
+        <img src="./assets/instagram.png" alt="instagram">
+      </div>  
+    </div>
+    <form action="contacto.html">
+    <fieldset class="caja">
+      <h3>Formulario de contacto</h3>
+      
+      <label for="Persona Fisica">Persona Fisica</label>
+      <input type="Persona Fisica">
+      <label for="Persona Juridica">Persona Juridica</label>
+      <input type="Persona Juridica">
+      <label for="Nombre">Nombre</label>
+      <input type="Nombre">
+      <label for="Teléfono de contacto">Teléfono de contacto</label>
+      <input type="Teléfono de contacto">
+      <label for="Email">Email</label>
+      <input type="Email">
+      <label for="Asunto">Asunto</label>
+    
+        <select name="Asunto" id="Asunto">
+        <option value="Monotributo">Monotributo</option>
+        <option value="Responsable inscripto">Responsable inscripto</option>
+        <option value="Sociedades">Sociedades</option>
+        <option value="Declaraciones Juradas">Declaraciones Juradas</option>
+        <option value="Liquidacion de Sueldos">Liquidacion de Sueldos</option>
+        <option value="Certificaciones Contables">Certificaciones Contable</option>
+        <option value="Otros Servicios">Otros Servicios</option>
+      </select>
+      
+      <label for="Mensaje">Mensaje</label>
+      <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+    
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Restablecer">
+    </fieldset>
+  </form>
+  </main>
 </header>
+
+
+
+<footer>
+  <h3 class="footer__1">Estudio CMG - Estudio Contable Integral &copy; 2022</h3>
+  <h3 class="footer__2"> - Sitio Web para CoderHouse</h3>
+</footer>
+
 </body>
 </html>

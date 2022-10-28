@@ -1,6 +1,6 @@
 /*===============CSS RESET=====================*/
 /* Box sizing rules */
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -48,12 +48,36 @@ header {
   align-items: center;
   margin: 15px 15px 15px 0;
 }
+.logo img:hover {
+  transform: scale(1.2);
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+
 .logo h3 {
   font-weight: 400;
   font-size: 43px;
   padding-left: 12px;
   width: 157px;
   font-weight: 500;
+}
+
+.botonMenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 60px;
+  height: 40px;
+}
+
+.iconoMenu {
+  width: 25px;
+  height: 2px;
+  background-color: gray;
+  margin: 3px 0;
 }
 
 ul {
@@ -80,7 +104,7 @@ a {
   font-size: 15px;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
@@ -92,10 +116,12 @@ main {
 }
 .main {
   display: flex;
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 60px;
+  margin-bottom: 70px;
   flex-direction: column;
+  justify-content: center;
 }
 .main h1 {
   font-weight: 500;
@@ -108,31 +134,40 @@ main p {
   line-height: 150%;
   font-weight: 500;
 }
+.text__main {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
 span {
   font-weight: bold;
   color: rgb(13, 13, 114);
 }
 .contenedor {
-  background-image: url(./assets/fondo.jpg);
-  background-size: cover;
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 70vh;
   margin: auto;
 }
-.items{
+.items {
   display: flex;
   justify-content: center;
   justify-content: space-around;
   margin: 5rem;
 }
-.icono{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 3rem;
+.icono {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+.icono:hover {
+  transform: scale(1.2);
+  transition-duration: 0.7s;
+  /* para qeu se mueva imagen y el texto hay que poner el nombre solo del class
+  si queres que se mueva solo la imagen hay que poner img antes de los : de hover */
 }
 .contenedor p {
   font-size: 15px;
@@ -141,16 +176,23 @@ span {
   display: flex;
   justify-content: space-evenly;
 }
-footer {
-
+.redes img:hover {
+  transform: rotate(360deg);
+  transition: 0.7s;
+  cursor: pointer;
+}
+h3 {
+  display: flex;
 }
 footer h3 {
   height: 40px;
-  border: 2px solid black;
-
+  border: 1px solid rgb(182, 182, 182);
   width: 100%;
-  align-items: flex-end;
+  align-items: center;
+  font-weight: lighter;
+  justify-content: center;
 }
+<<<<<<< HEAD
 .imagen{
   background-image: url(./assets/fondo.jpg);
   background-repeat: no-repeat;
@@ -164,3 +206,112 @@ footer h3 {
   overflow: hidden;
 }  
 }
+=======
+.footer__1 {
+  background-color: rgb(247, 247, 247);
+  font-weight: lighter;
+  font-size: 16px;
+}
+.footer__2 {
+  color: rgb(148, 138, 141);
+  font-size: 14px;
+  align-items: flex-start;
+}
+/* tutoriales */
+.centrar {
+  text-align: center;
+}
+.iconos {
+  display: flex;
+  flex-direction: column;
+<<<<<<< HEAD
+  margin: 1rem;}
+  .izquierda{display: flex;}
+  .derecha{display: flex;}
+  /* Contacto */
+  .centrarContacto{
+    text-align: center;
+    padding: 2rem;
+  }
+  .caja{
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(8, 151, 233);
+    font-size: large;
+    width: 30%;
+   padding: 1rem;
+  }
+
+form {
+  display: flex;
+  justify-content: center;
+}
+.caja {
+  display: flex;
+  justify-content: center;
+}
+=======
+  margin: 1rem;
+}
+.izquierda {
+  display: flex;
+}
+.derecha {
+  display: flex;
+}
+/* Contacto */
+.centrarContacto {
+  text-align: center;
+  padding: 2rem;
+}
+.caja {
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(8, 151, 233);
+  font-size: large;
+  width: 30%;
+  padding: 1rem;
+}
+/*SERVICIOS*/
+.contenedor__servicios{
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  /* height: 70vh; */
+  margin: auto;
+}
+.servicios__text {
+  font-weight: 300;
+  line-height: 30px;
+  width: 1014px;
+  text-align: center;
+  margin: auto;
+  font-size: 1.7em;
+}
+.servicios__img{
+
+}
+
+.formulario{
+  display:inline-block;
+  border-style: solid;
+  background-color:lightskyblue;
+  width:fit-content;
+  height:fit-content;
+  padding:10px;
+  margin:auto;
+  text-align: left;
+  margin-top:50px;
+}
+
+.formulario h4 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+table {
+  line-height: 26px;
+  margin-top: 5px;
+}
+>>>>>>> 7d7532ddaf952eeca06fad3a9b87c46069212090
+>>>>>>> 476040bf6482e8bab8b8251a61657239be44e8fd
