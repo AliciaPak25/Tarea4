@@ -50,7 +50,8 @@ header {
   
 }
 .logo img:hover{
-  transition:scale(1.2);
+  transform:scale(1.2);
+  transition-duration: 0.7s;
 }
 
 .logo h3 {
@@ -146,6 +147,12 @@ span {
   align-items: center;
   margin: 3rem;
 }
+.icono:hover{
+  transform:scale(1.2);
+  transition-duration: 0.7s;
+  /* para qeu se mueva imagen y el texto hay que poner el no,bre solo del class
+  si queres que se mueva solo la imagen hay que poner img antes de los : de hover */
+}
 .contenedor p {
   font-size: 15px;
 }
@@ -153,7 +160,10 @@ span {
   display: flex;
   justify-content: space-evenly;
 }
-
+.redes img:hover{
+  -webkit-transform: rotate(360deg);
+  transition: 0.7s;
+}
 h3{
   display:flex;
 }
