@@ -177,11 +177,11 @@ span {
   display: flex;
   justify-content: space-evenly;
 }
-.redes img:hover {
+/* .redes img:hover {
   transform: rotate(360deg);
   transition: 0.7s;
   cursor: pointer;
-}
+} */
 h3 {
   display: flex;
 }
@@ -345,7 +345,20 @@ footer h3 {
 .iconos h2 {
   color: #3f4b57;
 }
-
+.hoverIconos img{
+  width:3vw;
+}
+.hoverIconos{
+  display:flex;
+  flex-direction:column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.hoverIconos:hover {
+  transform: rotate(360deg);
+  transition: 0.7s;
+  cursor: pointer;
+} 
 form {
   display: flex;
   justify-content: center;
