@@ -306,27 +306,52 @@ footer h3 {
 .iconos {
   display: flex;
   flex-direction: column;
-  margin: 1rem;}
-  .izquierda{display: flex;}
-  .derecha{display: flex;}
-  /* Contacto */
-  .centrarContacto{
+  align-items: center;
+  margin: 3rem;
+  width: 40%;
+  margin: 1rem;
+}
+.izquierda{
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.derecha{
+  display: flex;
+  justify-content: center;
+}
+
+/* Contacto */
+.centrarContacto{
     text-align: center;
     padding: 2rem;
-  }
-  .caja{
+}
+.caja{
     flex-direction: column;
     text-align: center;
     background-color: rgb(8, 151, 233);
     font-size: large;
     width: 30%;
-   padding: 1rem;
+    padding: 1rem;
+    border: 2px solid black;
   }
+
+.caja h3 {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.iconos h2 {
+  color: #3f4b57;
+}
 
 form {
   display: flex;
   justify-content: center;
   justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
 .izquierda {
@@ -345,7 +370,7 @@ form {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-color: rgb(8, 151, 233);
+  background-color: #87cefa;
   font-size: large;
   width: 30%;
   padding: 1rem;
