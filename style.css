@@ -47,10 +47,9 @@ header {
   justify-content: center;
   align-items: center;
   margin: 15px 15px 15px 0;
-  
 }
-.logo img:hover{
-  transform:scale(1.2);
+.logo img:hover {
+  transform: scale(1.2);
   transition-duration: 0.7s;
   cursor: pointer;
 }
@@ -164,10 +163,10 @@ span {
   align-items: center;
   margin: 3rem;
 }
-.icono:hover{
-  transform:scale(1.2);
+.icono:hover {
+  transform: scale(1.2);
   transition-duration: 0.7s;
-  /* para qeu se mueva imagen y el texto hay que poner el no,bre solo del class
+  /* para qeu se mueva imagen y el texto hay que poner el nombre solo del class
   si queres que se mueva solo la imagen hay que poner img antes de los : de hover */
 }
 .contenedor p {
@@ -177,29 +176,29 @@ span {
   display: flex;
   justify-content: space-evenly;
 }
-.redes img:hover{
-  -webkit-transform: rotate(360deg);
+.redes img:hover {
+  transform: rotate(360deg);
   transition: 0.7s;
   cursor: pointer;
 }
-h3{
-  display:flex;
+h3 {
+  display: flex;
 }
 footer h3 {
-height: 40px;
-border: 1px solid rgb(182, 182, 182);
-width: 100%;
-align-items: center;
-font-weight: lighter;
-justify-content: center;
+  height: 40px;
+  border: 1px solid rgb(182, 182, 182);
+  width: 100%;
+  align-items: center;
+  font-weight: lighter;
+  justify-content: center;
 }
-.footer__1{
-  background-color: rgb(247,247,247);
+.footer__1 {
+  background-color: rgb(247, 247, 247);
   font-weight: lighter;
   font-size: 16px;
 }
-.footer__2{
-  color:rgb(148, 138, 141);
+.footer__2 {
+  color: rgb(148, 138, 141);
   font-size: 14px;
   align-items: flex-start;
 }
@@ -210,6 +209,7 @@ justify-content: center;
 .iconos {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   margin: 1rem;}
   .izquierda{display: flex;}
   .derecha{display: flex;}
@@ -235,3 +235,67 @@ form {
   display: flex;
   justify-content: center;
 }
+=======
+  margin: 1rem;
+}
+.izquierda {
+  display: flex;
+}
+.derecha {
+  display: flex;
+}
+/* Contacto */
+.centrarContacto {
+  text-align: center;
+  padding: 2rem;
+}
+.caja {
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(8, 151, 233);
+  font-size: large;
+  width: 30%;
+  padding: 1rem;
+}
+/*SERVICIOS*/
+.contenedor__servicios{
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  /* height: 70vh; */
+  margin: auto;
+}
+.servicios__text {
+  font-weight: 300;
+  line-height: 30px;
+  width: 1014px;
+  text-align: center;
+  margin: auto;
+  font-size: 1.7em;
+}
+.servicios__img{
+
+}
+
+.formulario{
+  display:inline-block;
+  border-style: solid;
+  background-color:lightskyblue;
+  width:fit-content;
+  height:fit-content;
+  padding:10px;
+  margin:auto;
+  text-align: left;
+  margin-top:50px;
+}
+
+.formulario h4 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+table {
+  line-height: 26px;
+  margin-top: 5px;
+}
+>>>>>>> 7d7532ddaf952eeca06fad3a9b87c46069212090
